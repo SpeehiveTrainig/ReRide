@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Mappings\" />
     <Folder Include="Logs\" />
-    <Folder Include="ViewModel\" />
     <Folder Include="Utils\" />
   </ItemGroup>
 
