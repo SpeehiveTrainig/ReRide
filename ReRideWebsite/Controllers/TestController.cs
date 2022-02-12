@@ -28,6 +28,12 @@ namespace ReRideWebsite.Controllers
         // GET: Test/Details/5
         public async Task<IActionResult> Details(string id)
         {
+
+            // test 
+
+            //test 2
+
+            // test 3
             if (id == null)
             {
                 return NotFound();
