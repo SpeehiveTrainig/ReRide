@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReRideWebsite", "ReRideWebs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReRideWebAPI", "ReRideWebAPI\ReRideWebAPI.csproj", "{FED9C14B-04CD-4309-8274-B1487BA2F0E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{446CCDEF-4E8C-4923-A0D2-5F1766341CEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FED9C14B-04CD-4309-8274-B1487BA2F0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FED9C14B-04CD-4309-8274-B1487BA2F0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FED9C14B-04CD-4309-8274-B1487BA2F0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446CCDEF-4E8C-4923-A0D2-5F1766341CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446CCDEF-4E8C-4923-A0D2-5F1766341CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446CCDEF-4E8C-4923-A0D2-5F1766341CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446CCDEF-4E8C-4923-A0D2-5F1766341CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{92711D90-D6B8-4CF2-9CF5-D5774FD3E22B} = {2BF231CD-33D3-4D8E-BBD5-3B6E9D3E15F2}
 		{FED9C14B-04CD-4309-8274-B1487BA2F0E2} = {005F59B3-96DF-4CBA-9DB4-ECF58E08C797}
+		{446CCDEF-4E8C-4923-A0D2-5F1766341CEB} = {A4D48402-C6FC-4B6B-9DE8-0C89337E07F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1C972FA-44D6-463F-A2F4-E69FE3EB2FDA}
