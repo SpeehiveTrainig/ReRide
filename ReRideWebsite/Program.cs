@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using ReRideWebsite.Sevices;
+using ReRideWebsite.Sevices.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ReRideDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("Default")
     ));
+
+builder.Services.AddTransient<ICarService,CarService>();
 
 
 
