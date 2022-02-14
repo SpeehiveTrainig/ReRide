@@ -21,7 +21,7 @@ namespace ReRideWebsite.Sevices
                 _dbContext.SaveChanges();
 
             }
-            catch (Exception ex)
+            catch (Exception exp)
             {
 
                
