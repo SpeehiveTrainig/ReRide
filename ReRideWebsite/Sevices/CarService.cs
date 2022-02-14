@@ -43,7 +43,7 @@ namespace ReRideWebsite.Sevices
 
         public List<Car> GetAll()
         {
-            throw new NotImplementedException();
+            return _dbContext.Cars.ToList();
         }
 
         public Car Update(string id, Car car)
