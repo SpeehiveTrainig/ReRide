@@ -2,10 +2,10 @@
 {
     public class Employee
     {
-        public string Id { get; set; }
-        public int MyProperty { get; set; }
-        public string Id2 { get; set; }
-        public int MyProperty1 { get; set; }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string address{ get; set; }
+        public int Age { get; set; }
 
 
 
